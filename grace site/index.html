@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>NALULE GRACE NAKABUYE | SITE</title>
+    <script src="https://kit.fontawesome.com/8bb2f53f30.js" crossorigin="anonymous"></script>
+</head>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/blue moji.png" class="logo">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#Portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I am <span>Grace</span> Nalule Nakabuye <br>from Uganda</h1>
+        </div>
+</div>
+    <!--about-->
+<div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/image0.jpeg" alt="image">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="text">Hello there! I'm a student web developer with a burning passion for stories, culture, and rewriting the norms of storytelling using revolutionary technology.<br> My journey in the world of web development has been driven by a deep love for creativity, innovation, and the power of narratives to shape our understanding of the world.</p>
+                <div class="titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <!--skills-->
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>UI UX </span><br>User Experience & Interface</li>
+                        <li><span>BackEnd </span><br>Designing Infrastructure</li>
+                        <li><span>SEO </span><br>Enhancing online Visibity</li>
+                    </ul>
+                </div>
+<!--experience-->
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>Technovole </span><br>Tech company in Uganda</li>
+                        <li><span>Solutions East Africa </span><br>Marketing & Client engagement</li>
+                        <li><span>Freelancing</span><br></li>
+                    </ul>
+                </div>
+<!--education-->
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>Mengo ss </span><br>UACE</li>
+                        <li><span>Aptech  </span><br>WEB DEV certification</li>
+                        <li><span>ALU</span><br>BA Software engineering</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="titles"> Skills</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/uiux.jpeg" alt="work1">
+                <div class="layer">
+                    <h3>User Experience User Interface Design</h3>
+                    <p> I am dedicated to crafting digital experiences that seamlessly blend aesthetic appeal with user-centric functionality .</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/backend.jpeg" alt="work1">
+                <div class="layer">
+                    <h3>Backend Design</h3>
+                    <p> Building the robust and unseen infrastructure that powers applications.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/robo.jpeg" alt="work1">
+                <div class="layer">
+                    <h3>Search Engine Optimization</h3>
+                    <p> I specialize in enhancing online visibility and driving organic traffic to websites.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn">See more</a>   
+    </div>
+</div>
+
+
+<!-----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact me</h1>
+                <p class="text">g.nalule@alustudent.com</p>
+                <p class="text">+256756325925</p>
+                <div class="icons">
+                    <a href="#"<i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"<i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"<i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"<i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"<i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Enroll.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-heart"></i>  Grace </p>
+    </div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
